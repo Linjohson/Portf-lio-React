@@ -62,7 +62,7 @@ function App() {
                         Saiba mais
                     </a>
 
-                    <a href="(CLT)Linjohson_Programador-2.pdf" className="button-download">
+                    <a href="https://drive.google.com/file/d/13-FBmaI4EIlZQBuogPwyrVsfhcgPqJYQ/view?usp=share_link"  className="button-download">
                         Download CV
                     </a>
                     
@@ -78,19 +78,19 @@ function App() {
             <div className="projetos-img-container">
                 <div className="projetos-img">
                     <a href="">
-                        <img src="" alt=""></img>
+                        {/* <img src="" alt=""></img> */}
                     </a>
                     
                 </div>
                 <div className="projetos-img">
                     <a href="">
-                        <img src="" alt=""></img>
+                        {/* <img src="" alt=""></img> */}
                     </a>
                     
                 </div>
                 <div className="projetos-img">
                     <a href="">
-                        <img src="" alt=""></img>
+                        {/* <img src="" alt=""></img> */}
                     </a>
                     
                 </div>
@@ -146,7 +146,12 @@ function App() {
                 
                     <h1> <strong>REDES SOCIAIS</strong> </h1>
                       
-                <div className="iconsContainer">     
+                <div className="iconsContainer">  
+
+                    <a href="https://github.com/Linjohson" id="github">
+                        <div className="iconItem"></div>
+                    </a>
+
                     <a href="https://www.linkedin.com/in/linjohson-guimar%C3%A3es-a1904a140/" id="linkedin">
                          <div className="iconItem"></div>
                     </a>
@@ -154,12 +159,7 @@ function App() {
                     <a href="https://wa.me/5585987051012" id="whatsapp">
                         <div className="iconItem"></div>
                     </a>
-                    
-                    <a href="https://www.instagram.com/invites/contact/?i=15e22z0pl36ch&utm_content=5bkze8" id="instagram">
-                        <div className="iconItem"></div>
-                    </a>
-                    
-                    
+
                 </div>   
                     
                 <a href="#header">

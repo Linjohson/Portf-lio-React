@@ -94,7 +94,7 @@ main{
 .sobre-buttons{
  display: flex;
  margin-top: 10px;
- margin-left: 20px;
+ margin-left: 0px;
 }
 
 .button-saiba{
@@ -274,56 +274,56 @@ form-group input{
 
 #linkedin{
  
- background-position:center center;
- background-size:49px;
- background-image: url('./img/logotipo-do-linkedin.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
- max-height: 300px; max-width: 300px;
-}
-
-#linkedin :hover{
+  background-position:center center;
+  background-size:49px;
+  background-image: url('./img/logotipo-do-linkedin.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+  max-height: 300px; max-width: 300px;
+ }
  
- background-position:center center;
- background-size:49px;
- background-image: url('./img/linkedin-colorido.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
-}
-
-#whatsapp{
+ #linkedin :hover{
+  
+  background-position:center center;
+  background-size:49px;
+  background-image: url('./img/linkedin-colorido.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+ }
  
- background-position:center center;
- background-size:47px;
- background-image: url('./img/whatsapp.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
- max-height: 300px; max-width: 300px;
-}
-#whatsapp :hover {
+ #whatsapp{
+  
+  background-position:center center;
+  background-size:47px;
+  background-image: url('./img/whatsapp.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+  max-height: 300px; max-width: 300px;
+ }
+ #whatsapp :hover {
+  
+  background-position:center center;
+  background-size:47px;
+  background-image: url('./img/whatsapp-colorido.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+  
+ }
  
- background-position:center center;
- background-size:47px;
- background-image: url('./img/whatsapp-colorido.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
  
-}
-
-
-
-#instagram{
  
- background-position:center center;
- background-size:47px;
- background-image: url('./img/instagram.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
- max-height: 300px; max-width: 300px;
-}
-#instagram :hover{
- 
- background-position:center center;
- background-size:47px;
- background-image: url('./img/instagram-colorido.png');
- background-repeat: no-repeat, repeat-x, repeat-y, repeat;
- max-height: 300px; max-width: 300px;
-}
+ #github{
+  
+  background-position:center center;
+  background-size:47px;
+  background-image: url('./img/github.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+  max-height: 300px; max-width: 300px;
+ }
+ #github :hover{
+  
+  background-position:center center;
+  background-size:47px;
+  background-image: url('./img/github-colorido.png');
+  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+  max-height: 300px; max-width: 300px;
+ }
 
 
 .footerContainer{
@@ -351,6 +351,7 @@ form-group input{
  background-size: cover; 
 }
 
+/*------------------------------Tela 1440px------------------------------------*/
 
 @media (min-width: 1440px){
   
@@ -360,12 +361,12 @@ body{
   margin-bottom: 10px;
   background-color: #ffffff;
   width: 100%;
-  max-width: 1800px;
+  max-width: 100%;
 }
 
 header{
  width: 100%;
- min-width: 1440px;
+ min-width: 100%;
  height: 53px;
  background-color: #1e2039;
  display: flex;
@@ -400,13 +401,19 @@ main{
 }
 
 .sobre-container{
+  margin-right: auto;
+  margin-left: auto;
  display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
  background-color: #ffffff;
  padding-top: 35px;
  height: 450px;
 }
 
 .img-container{
+  
  width: 380px;
  height: 380px;
  border: 2px solid #1e2039;
@@ -421,9 +428,11 @@ main{
 
 
 .sobre{
- display: block;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  margin-left: auto;
- margin-right: 140px;
+ margin-right: auto;
  color: #1e2039;
  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  
@@ -451,7 +460,7 @@ main{
 .sobre-buttons{
  display: flex;
  margin-top: 10px;
- margin-left: 20px;
+ margin-left: 9px;
 }
 
 .button-saiba{
@@ -495,10 +504,12 @@ main{
 
 .projetos-container1{
  background-color: #1e2039;
- display: block;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
  padding: 50px;
  height: 470px;
- 
+ max-width: 100%;
 }
 
 .projetos-container1 h1{
@@ -665,19 +676,19 @@ form-group input{
 
 
 
-#instagram{
+#github{
  
  background-position:center center;
  background-size:47px;
- background-image: url('./img/instagram.png');
+ background-image: url('./img/github.png');
  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
  max-height: 300px; max-width: 300px;
 }
-#instagram :hover{
+#github :hover{
  
  background-position:center center;
  background-size:47px;
- background-image: url('./img/instagram-colorido.png');
+ background-image: url('./img/github-colorido.png');
  background-repeat: no-repeat, repeat-x, repeat-y, repeat;
  max-height: 300px; max-width: 300px;
 }
@@ -1021,36 +1032,57 @@ form-group input{
   }
   
   #linkedin{
-   
-   background-position:center center;
-   background: size 35px;
-   background-image: url('./img/linkedin-colorido.png');
-   background-repeat: no-repeat, repeat-x, repeat-y, repeat;
-   max-height: 300px; max-width: 300px;
-  }
-  
  
-  
-  #whatsapp{
+    background-position:center center;
+    background-size:49px;
+    background-image: url('./img/logotipo-do-linkedin.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+    max-height: 300px; max-width: 300px;
+   }
    
-   background-position:center center;
-   background-size:37px;
-   background-image: url('./img/whatsapp-colorido.png');
-   background-repeat: no-repeat, repeat-x, repeat-y, repeat;
-   max-height: 300px; max-width: 300px;
-  }
- 
-  
-  
-  
-  #instagram{
+   #linkedin :hover{
+    
+    background-position:center center;
+    background-size:49px;
+    background-image: url('./img/linkedin-colorido.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+   }
    
-   background-position:center center;
-   background-size:37px;
-   background-image: url('./img/instagram-colorido.png');
-   background-repeat: no-repeat, repeat-x, repeat-y, repeat;
-   max-height: 300px; max-width: 300px;
-  }
+   #whatsapp{
+    
+    background-position:center center;
+    background-size:47px;
+    background-image: url('./img/whatsapp.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+    max-height: 300px; max-width: 300px;
+   }
+   #whatsapp :hover {
+    
+    background-position:center center;
+    background-size:47px;
+    background-image: url('./img/whatsapp-colorido.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+    
+   }
+   
+   
+   
+   #github{
+    
+    background-position:center center;
+    background-size:47px;
+    background-image: url('./img/github.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+    max-height: 300px; max-width: 300px;
+   }
+   #github :hover{
+    
+    background-position:center center;
+    background-size:47px;
+    background-image: url('./img/github-colorido.png');
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+    max-height: 300px; max-width: 300px;
+   }
   
   
   
@@ -1416,11 +1448,11 @@ form-group input{
   
   
   
-  #instagram{
+  #github{
    
    background-position:center center;
    background-size:37px;
-   background-image: url('./img/instagram-colorido.png');
+   background-image: url('./img/github-colorido.png');
    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
    max-height: 300px; max-width: 300px;
   }
@@ -1798,7 +1830,7 @@ form-group input{
    
    background-position:center center;
    background-size:37px;
-   background-image: url('./img/instagram-colorido.png');
+   background-image: url('./img/github-colorido.png');
    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
    max-height: 300px; max-width: 300px;
   }
