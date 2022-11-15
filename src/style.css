@@ -178,7 +178,8 @@ main{
 
 .projetos-img-container{
  display: flex;
- 
+ flex-direction: row;
+ justify-content: center;
 }
 
 .contato-container{
@@ -928,7 +929,7 @@ form-group input{
     height: 142px;
     border-radius: 10px;
     margin: 55px;
-    margin-left: auto;
+    margin-left: 13vh;
     margin-right: auto;
     cursor: pointer;
 }
@@ -1337,7 +1338,7 @@ form-group input{
     height: 142px;
     border-radius: 10px;
     margin: 55px;
-    margin-left: auto;
+    margin-left: 13vh;
     margin-right: auto;
     cursor: pointer;
 }
