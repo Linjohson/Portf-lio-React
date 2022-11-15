@@ -161,6 +161,19 @@ main{
  border-radius: 10px;
  margin: 55px;
  margin-left: 110px;
+ cursor: pointer;
+}
+
+.projetos-img-cep {
+ background-color: #f0f0f0;
+ background-image: url(img/buscadorDeCep.png);
+ background-size: cover;
+ width: 290px;
+ height: 290px;
+ border-radius: 10px;
+ margin: 55px;
+ margin-left: 110px;
+ cursor: pointer;
 }
 
 .projetos-img-container{
@@ -529,7 +542,20 @@ main{
  border-radius: 10px;
  margin: 55px;
  margin-left: 110px;
+ cursor: pointer;
 }
+
+.projetos-img-cep {
+  background-color: #f0f0f0;
+  background-image: url(img/buscadorDeCep.png);
+  background-size: cover;
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+  margin: 55px;
+  margin-left: 110px;
+  cursor: pointer;
+ }
 
 .projetos-img-container{
  display: flex;
@@ -904,7 +930,21 @@ form-group input{
     margin: 55px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
+.projetos-img-cep {
+  background-color: #f0f0f0;
+  background-image: url(img/buscadorDeCep.png);
+  background-size: cover;
+    width: 142px;
+    height: 142px;
+    border-radius: 10px;
+    margin: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
   
   .projetos-img-container{
    display: flex;
@@ -1299,7 +1339,21 @@ form-group input{
     margin: 55px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
+.projetos-img-cep {
+  background-color: #f0f0f0;
+  background-image: url(img/buscadorDeCep.png);
+  background-size: cover;
+    width: 142px;
+    height: 142px;
+    border-radius: 10px;
+    margin: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
   
   .projetos-img-container{
    display: flex;
@@ -1677,7 +1731,21 @@ form-group input{
     margin: 55px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
+.projetos-img-cep {
+  background-color: #f0f0f0;
+  background-image: url(img/buscadorDeCep.png);
+  background-size: cover;
+    width: 142px;
+    height: 142px;
+    border-radius: 10px;
+    margin: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
   
   .projetos-img-container{
    display: block;

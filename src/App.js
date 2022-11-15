@@ -76,24 +76,21 @@ function App() {
             <h1 >Projetos</h1>
 
             <div className="projetos-img-container">
-                <div className="projetos-img">
+                
+                    <a href="https://buscadordeceplinjohson.netlify.app/">
+                        {/* <img src="" alt=""></img> */}
+                        <div className="projetos-img-cep"></div>
+                    </a>
+
                     <a href="">
                         {/* <img src="" alt=""></img> */}
+                        <div className="projetos-img"></div>
                     </a>
-                    
-                </div>
-                <div className="projetos-img">
+
                     <a href="">
                         {/* <img src="" alt=""></img> */}
+                        <div className="projetos-img"></div>
                     </a>
-                    
-                </div>
-                <div className="projetos-img">
-                    <a href="">
-                        {/* <img src="" alt=""></img> */}
-                    </a>
-                    
-                </div>
                 
              {/* </div>
                 <div class="projetos-img-container">
