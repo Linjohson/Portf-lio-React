@@ -34,6 +34,8 @@ function App() {
         </nav>
     </header>
 
+    
+
     <main>
         <div className="sobre-container" id="sobre">
             <div className="img-container">
